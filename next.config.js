@@ -4,7 +4,15 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'upload.wikimedia.org',
+        hostname: 'i.imgur.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'links.papareact.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.pexels.com',
       },
     ],
   },
