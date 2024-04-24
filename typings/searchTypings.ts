@@ -1,6 +1,6 @@
 export interface Organic {
   url: string;
-  image: string;
+  images: string[];
   price: string;
   title: string;
   rating: string;
